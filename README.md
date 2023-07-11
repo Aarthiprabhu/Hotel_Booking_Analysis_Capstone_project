@@ -70,17 +70,17 @@ reservation_statuse: Reservation status(Canceled, check-out or no-show)
 
 reservation_status_date: Date at which the last reservation status was updated
 
-#Data cleaning and manipulation:
-#Duplicate values:
+## Data cleaning and manipulation:
+# Duplicate values:
       Dataset have 31994 duplicate values. so these duplicate values are removed from dataset using.drop_dupliactes(). After droping duplicate value shape of the dataset become 87396 rows and 32 columns.
 
-#Missing values/null values:
+# Missing values/null values:
        Given dataset have 4 columns company, agent, country and children missing values so these values are replace by using .fillna() function.  
 
-#Adittion of new columns:
+# Adittion of new columns:
          Total_people and Total_stay these two columns are added in given dataset Some rows are removed from columns adults, children and babies.
 
-#EDA:
+# EDA:
       The EDA is done by using 3 analysis
           Univariate analysis.
           Bivariate  analysis.
