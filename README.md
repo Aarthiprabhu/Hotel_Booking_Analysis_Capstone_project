@@ -6,7 +6,7 @@
 ### Dataset:
         The given dataset have information of city and resort hotel. This dataset have 119390 rows and 32 coulumns. The columns from the dataset is given as follows:
 
-*Hotel*: Type of hotel(City or Resort)
+*Hotel* : Type of hotel(City or Resort)
 
 *is_cancelled*: If the booking was cancelled(1) or not(0)
 
@@ -60,15 +60,15 @@
 
 *customer_type*: Type of customer, assuming one of four categories
 
-adr: Average daily rate
+*adr*: Average daily rate
 
-required_car_parking_spaces: Number of car parking spaces required bt the customer
+*required_car_parking_spaces*: Number of car parking spaces required bt the customer
 
-total_of_special_requesrs: Number of special requests made by the customer
+*total_of_special_requesrs*: Number of special requests made by the customer
 
-reservation_statuse: Reservation status(Canceled, check-out or no-show)
+*reservation_status*: Reservation status(Canceled, check-out or no-show)
 
-reservation_status_date: Date at which the last reservation status was updated
+*reservation_status_date*: Date at which the last reservation status was updated
 
 ## Data cleaning and manipulation:
 # Duplicate values:
