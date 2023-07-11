@@ -1,9 +1,9 @@
 # Hotel_Booking_Analysis_Capstone_project
 
-#Obective:
+## Obective:
         I have Hotel Booking Analysis dataset.The main objective of this project is explore the given dataset and find useful conclusion about general trends in hotel booking and discover how these factors affect on hospitality business.
 
-#Dataset:
+### Dataset:
         The given dataset have information of city and resort hotel. This dataset have 119390 rows and 32 coulumns. The columns from the dataset is given as follows:
 
 Hotel: Type of hotel(City or Resort)
