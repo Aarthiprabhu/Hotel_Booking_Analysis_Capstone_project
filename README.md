@@ -91,4 +91,71 @@ reservation_status_date: Date at which the last reservation status was updated
            Countplot.
            Heatmap.
            pair plot
+
+# Univariate analysis:
+# In univariate analysis following questions are tried to solve:
+         1. Which type of hotel is mostly prefered by the guests?
+         2. What is the percentage of repeated guests?
+         3. Which agent made the most bookings?
+         4. What is the most preferred room type by the customers?
+         5. What type of food is mostly prefered by the guests?
+         6. In which month most of the bookings happened?
+         7. Which distribution channel is mostly used for hotel booking?
+         8. which year had highest bookings?
+
+# Conclusion:  
+        1. City hotel has more booking.
+        2. There are very few guests booking for the same hotel again.
+        3. Agent no. 9 made most of the bookings.
+        4. A type rooms are most prefered rooms.
+        5. BB type food is most preferred food.
+        6. August month has maximum number of bookings.
+        7. Mostly used distribution channel is TA/TO channel.
+        8. 2016 has highest bookings.
+
+ ## Bivariate and Multivariate analysis:
+ ## In bivariate and multivariate analysis following questions are tried to solve:
+        1. which hotel has longer waiting time?
+        2. Which hotel type has the highest ADR?
+        3. Which distribution channel contributed more to adr in order to increase the income?
+        4. What is optimal stay length in both types of hotel?
+        5. Relationship between the repeated guests and previous bookings not canceled?
+        6. Relationship between ADR and total number of people? 
+        
+ ## Conclusion: 
+         1. City hotel has longer waiting time.
+         2. City hotel has highest adr.
+         3. GDS distribution channel contributed more to ADR in city hotel.
+         4. Optimal stay length in both hotel type is less than 7 days.
+         5. Repeated guests do not cancel there bookings.
+         6. Number of people increases adr aslo going to increase.    
+ ## Conclusion from correlation heatmap:
+        1. arrival_date_year and arrival_date_week_number columns has negative correlation which is -0.51.
+        2.stays_in_week_nights and total_stay has positive correlation which is 0.95.    
+##  Conclusion from pair plot:
+        1. If cancellation increases then total stay increases.
+        2. total amount of people increses adr increases.both are proportional to each other.
+        
+## Overall conclusion:
+         1. City hotel has almost 60% bookings and resort hotel has 40% bookings.
+         2. Agent no. 9 made most bookins and those bookings are 28721.
+         3. Percentage of repeated guest is just 4%.
+         4. Room type A is most preferred room type 46283 guests preferred A room type.
+         5. BB type food is most preferred food type and 67907 preferred this food.
+         6. August month has maximum number of bookings and those bookings are 11242.
+         7. TA/TO distribution channel is mostly prefderred channel and the bookings are 69028.
+         8. 2016 year has 42313 bookings.
+         9. City hotel has highest ADR and trhe average ADR is 111.27.
+         10. City hotel has longer waiting time means city hotel is busy hotel type.
+         11. GDS contribution channel contributed more to ADR in order to incerease income in city hotel.
+         12. Optimal stay length in both hotel type is leaa than 7 days.
+         13. Repeated do not cancel there bookings.
+         14. The number of people increases ADR increases.
+         15. arrival_date_year and arrival_date_week_number columns has negative correlation which is -0.51.
+         16. stays_in_week_nights and total_stay has positive correlation which is 0.95.
+         17. If cancellation increases then total stay increases.
+         18. total amount of people increses adr increases.both are proportional to each other.
+          
+
+           
            
